@@ -1,0 +1,25 @@
+{
+  "name": "cloudflare-workers-image-generation-example",
+  "version": "1.0.0",
+  "description": "Example repository showing how you can generate images using Cloudflare workers/pages-functions",
+  "scripts": {
+    "dev": "npx wrangler pages dev ./public"
+  },
+  "author": "Cole Crouter",
+  "license": "MIT OR Apache-2.0",
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "typescript"
+    ]
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^3.0.0",
+    "@types/upng-js": "^2.1.2",
+    "typescript": "^4.3.2",
+    "wrangler": "^0.0.0-65f9904"
+  },
+  "dependencies": {
+    "upng-js": "^2.1.0"
+  }
+}
