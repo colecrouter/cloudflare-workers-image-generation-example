@@ -86,7 +86,7 @@ const drawImage = (bgLayer: ArrayBuffer, fgLayer: ArrayBuffer, x: number, y: num
     const bgView = new Uint8Array(bgLayer);
 
     /*
-        This is where the fun begins. Our ArrayBuffers are a flattened 3D arrays, consisting of X, Y, and RGBA values. Because of this, we need to now the respective
+        This is where the fun begins. Our ArrayBuffers are a flattened 3D arrays, consisting of X, Y, and RGBA values. Because of this, we need to know the respective
         dimensions of our images, so we can use them *as though* they were 3D arrays. From there, we can iterate through our foreground image, and copy the RGBA values
         onto our background image.
     */
