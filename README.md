@@ -8,7 +8,7 @@ Currently, Workers doesn't implement the canvas API, as there is no `document` o
 
 ## How?
 
-Thanks to [upng.js](https://github.com/photopea/UPNG.js/), we can convert raw bytes data to and from `.png` files, allowing us to modify raw pixel values. While this means we need to implement any required image processing techniques from scratch, it *is* still possible to do.
+Thanks to [upng.js](https://github.com/photopea/UPNG.js/), we can convert raw byte data to and from `.png` files, allowing us to modify raw pixel values. While this means we need to implement any required image processing techniques from scratch, it *is* still possible to do.
 
 ## Developing
 
